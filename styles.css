@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'IBMPlexMono';
+    src: url('fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf') format('woff2'),
+         url('fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf') format('woff');
+    font-weight: 400; /* Normal weight */
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "IBMPlexMono";
+}
+
+.home-section {
+    .navbar-large {
+        display: none;
+    }
+    background-color: #080808;
+
+    .text-section{
+        
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        h1 {
+            color: #fff;
+        }
+
+        p {
+            color: #9c9c9c;
+        }
+        
+        a {
+            color: #fff;
+            padding: 21px 64px;
+            border-radius: 4px;
+            border: solid 1px #62ba1b;
+            background-color: #3f8e00;
+            align-self: flex-start;
+        }
+
+        a:hover {
+            transition: ease-in 0.3s;
+            box-shadow: 0 8px 30px 0 rgba(63, 142, 0, 0.5); 
+        }
+
+    }
+
+    .image-container {
+        max-width: 350px;
+        max-height: 350px;
+
+        img {
+            max-width: 350px;
+            max-height: 350px;
+            border-radius: 175px;
+        }
+    }
+
+    .content-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 180px 57px 180px;
+        gap: 78px;
+    }
+
+    .worked-with-section {
+        color: #fff;
+        padding: 0px 180px 45px 180px;
+
+        p{
+            padding-bottom: 20px;
+        }
+
+        .tags-container {
+            display: flex;
+            gap: 30px;
+        }
+
+        .technology-tags {
+            color: #1b1b1b;
+            padding: 20px 38.7px 20px 39px;
+            border-radius: 6px;
+            border: solid 1px #1b1b1b;
+            font-size: 40px;
+            font-weight: bolder;
+            
+        }
+    }
+   
+}
+
+a {
+    text-decoration: none;
+    color:#9c9c9c
+}
+
+a:hover {
+    transition: ease-in 0.1s;
+    color: #c0c0c0;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+@media only screen and (min-width: 330px) {
+    
+
+    .home-section {
+        .navbar-large {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 95px;
+            background-color: #1b1b1b;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            border-radius: 0 0 8px 8px;
+            margin-left: 85px;
+            margin-right: 85px;
+          
+          
+            ul {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          
+            .first-nav {
+              gap: 70px;
+            }
+          
+            .second-nav {
+              gap: 25px;
+            }
+          }
+      }
+}
