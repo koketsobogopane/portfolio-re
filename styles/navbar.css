@@ -1,0 +1,36 @@
+.navbar-large {
+    display: none;
+}
+
+@media only screen and (min-width: 770px) {
+
+    .navbar-large {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 95px;
+        background-color: #1b1b1b;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 20px;
+        border-radius: 0 0 8px 8px;
+        /* margin-left: 85px; */
+        /* margin-right: 85px; */
+      
+      
+        ul {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      
+        .first-nav {
+          gap: 70px;
+        }
+      
+        .second-nav {
+          gap: 25px;
+        }
+      }
+}
+
