@@ -1,16 +1,13 @@
 @font-face {
-    font-family: 'IBMPlexMono';
-    src: url('fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf') format('woff2'),
-         url('fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf') format('woff');
-    font-weight: 400; /* Normal weight */
-    font-style: normal;
+    font-family: 'myFirstFont';
+    src: url(../fonts/ibm-mono/IBMPlexMono-Regular.ttf);
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "IBMPlexMono";
+    font-family: "myFirstFont";
 }
 .link-button {
     color: #fff;
