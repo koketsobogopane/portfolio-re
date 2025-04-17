@@ -41,8 +41,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
     padding: 20px;
+
+    .title {
+        padding-bottom: 30px;
+    }
+    .description {
+        font-size: 14px;
+        color: #9c9c9c;
+    }
 }
 
 @media only screen and (min-width: 430px) {
@@ -55,7 +62,7 @@
 
 @media only screen and (min-width: 770px) {
     .content-section {
-        padding: 30px 0px 20px 0px;
+        padding: 200px 100px 200px 100px;
     }
 
     .content-sec {
